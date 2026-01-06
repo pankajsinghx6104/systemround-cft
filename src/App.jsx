@@ -8,8 +8,8 @@ const AppContent = () => {
 
   if(loading){
     return(
-      <div className='flex justify-center items-center h-screen text-xl'>
-        Loading...
+      <div className='flex justify-center items-center h-screen w-screen'>
+        <span className='text-2xl font-bold'>Loading...</span>
       </div>
     );
   }
